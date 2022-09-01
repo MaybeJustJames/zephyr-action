@@ -10,7 +10,7 @@ Run Zephyr as a GitHub Action
 ## Example usage
 
 ```yaml
-uses actions/zephyr-action@v1
+uses MaybeJustJames/zephyr-action@v1
 with:
   args: "-f -e Main"
 ```
