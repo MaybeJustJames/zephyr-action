@@ -1,0 +1,11 @@
+name: "Zephyr"
+description: "Tree shaking breeze for PureScript CoreFn AST"
+inputs:
+  args:
+    description: "Arguments to Zephyr"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.args }}
